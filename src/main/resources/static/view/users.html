@@ -1,0 +1,49 @@
+<div ng-controller="PersonController">
+   <!--   <h1> Fill the below details to signup </h1>-->
+	<form name="personForm" >
+	
+
+	<div class="form-group" >
+        <label class=black_font>User Name</label>
+        <input class=form-control type="text" id="username" ng-model="personForm.username" placeholder="username" autocomplete="off">
+    </div>
+    <div class="form-group" >
+        <label class=blue_font>First Name</label>
+        <input class=form-control type="text" id="firstname" ng-model="personForm.firstname" placeholder="firstname" autocomplete="off">
+    </div>
+    <div class="form-group" >
+        <label class=blue_font>Last Name</label>
+        <input class=form-control type="text" id="lastname" ng-model="personForm.lastname" placeholder="lastname" autocomplete="off">
+    </div>
+     
+    <div class="form-group" >
+        <label class=blue_font>Email</label>
+        <input class=form-control type="text" id="Email" ng-model="personForm.email" placeholder="Email" autocomplete="off">
+    </div>
+        <div class="form-group" >
+        <label class=blue_font>phone</label>
+        <input class=form-control type="text" id="phone" ng-model="personForm.phone" placeholder="phone" autocomplete="off">
+    </div>
+ 
+    <div class="form-group" >
+        <label class=blue_font>Password</label>
+        <input class=form-control type="text" id="password" ng-model="personForm.password" placeholder="Password" autocomplete="off">
+    </div>
+    
+ 
+ <div class="btn-wrapper">
+  <div class="row-gutter-5">
+    <div class="col-md-4 col-xs-6 col-sm-6">
+      <button class="btn btn_blue" type="button" data-ng-click="create()" id="Create" >Create</button>
+      
+    </div>
+    
+  </div>
+</div>
+
+	 
+  </form>
+	<div ng-show="loginconfirmation">
+{{loginconfirmed}}
+</div>
+	</div>

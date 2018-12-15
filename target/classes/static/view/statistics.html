@@ -1,0 +1,24 @@
+  <div ng-controller="statisticscontroller">
+
+
+ 
+ <table class="w3-table w3-bordered w3-striped">
+  <tr>
+    <th>ID</th>
+    <th>ServiceName</th>
+    <th>Methodcall</th>
+    
+  </tr>
+  <tr ng-repeat="statistic in statistics">
+        <td>{{ statistic.id }}</td>
+    <td>{{ statistic.servicename }}</td>
+    <td>{{ statistic.methodcalls }}</td>
+  </tr>
+</table>
+ 
+ 
+ 
+ 
+    <p>{{msg}}</p>
+    
+    </div>

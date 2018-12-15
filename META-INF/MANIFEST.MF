@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PetAdopt
+Bundle-SymbolicName: PetAdopt
+Bundle-Version: 1.0.0.qualifier
+Export-Package: io.swagger,
+ io.swagger.api,
+ io.swagger.configuration,
+ io.swagger.model,
+ io.swagger.repository

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="./js/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="./js/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+ -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+	<script src="./js/angular-resource.min.js"></script>
+	<script src="./js/app.js"></script>
+	<!-- 
+	<link rel="stylesheet" href="./css/style.css">	
+	<link rel="stylesheet" href="./css/theme-default.css">
+	<link rel="stylesheet" href="./css/theme-blue.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/custom.css">
+	 -->
+	<head>
+<!--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <style type="text/css">
+      body{
+margin: 0;
+background-image:url(image.jpeg);
+background-size: cover; 
+}
+
+</style>
+
+  -->	  
+
+
+<style type="text/css">
+body{
+margin: 0;
+background-image:url(image.jpeg);
+background-size: cover; 
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+a:link,a:visited{
+display: table;
+front-weight:bold;
+color: #FFFFFF;
+background-color: #98bf21;
+width:270px;
+text-align: center;
+text-decoration:none;
+padding: 4px;
+
+}
+a:hover,a:active{
+background-color: #7A991A;
+}
+li{
+float: left;
+}
+div {
+	text-align: center;
+text-decoration:none;
+
+padding: 8px;
+}
+
+	</style>
+
+ 
+	
+	</head>
+<body >
+
+<!-- <div class="topnav" id="myTopnav">  --> 
+<nav class="navbar navbar-inverse">
+
+  <div class="container-fluid">
+    
+<ul class="nav navbar-nav">
+<li><a href="#/!">Home</a></li>
+<li><a href="#!petinfo">PetInfo</a></li>
+<li><a href="#!user">Signup</a></li>
+<li><a href="#!/statistics">Statistics</a></li> 
+<li><a href="#!user/login">Login</a></li>
+
+</ul>
+</div>
+</nav>
+<div ng-view>
+</div>
+
+	
+ </body>
+
+ 
+</html>  
